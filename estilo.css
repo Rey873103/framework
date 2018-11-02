@@ -1,0 +1,83 @@
+body {
+	background:#808080;
+}
+
+header{
+	background: #4dbfd6;
+	
+}
+h4 {
+	color: white;
+	padding: 8px
+
+}
+nav-mobile {
+	margin: 90px;
+}
+.photo {
+	background-color: #4c4c4c;
+	margin-left: 200px;
+}
+.left-sidebar {
+	position: fixed;
+	top: 50%;
+	z-index: 999;
+	left: 10px;
+}
+.left-sidebar ul{
+	border: none;
+}
+.left-sidebar i.fa {
+	padding: 8px;
+	font-size: 25px;
+	color: #444;
+}
+.left-sidebar li {
+	width: 80px;
+
+}
+
+.im1 {
+	float: left;
+	text-align: left;
+	clear: both;
+}
+.photoperfil {
+	margin-left: 40px;
+	margin-top: 40px;
+	border-radius: 50px,50px,50px,50px;
+
+}
+.pic {
+	background-color: #4c4c4c;
+	margin-right: 245px;
+	
+
+}
+.im2 {
+	float: right;
+	clear: both;
+	right: 70px;
+	margin-top: -32%;
+}
+.glaciar{
+	float: left;
+	margin-left: 130px;
+
+}
+.texto {
+	text-align: justify-all;
+	margin-right: 500px;
+	margin-left: 130px;
+}
+.im3 {
+	border-radius: 50%;
+
+}
+.autor {
+	margin-right: 2px;
+
+}
+.comentarios {
+	margin-left: 0;
+}

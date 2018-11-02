@@ -1,0 +1,47 @@
+body {
+	background-image: url(imagenes/gastronomia.jpg);
+	background-position: center;
+	background-size: cover;
+	
+}
+.fondo-blur::before {
+  content: '';
+  display: block;
+  background: inherit;
+  position: absolute;
+  width: 100%; height: 100%;
+  left: 0; top: 0;
+  filter: blur(15px);
+  transform: scale(1.2,1.4);
+}
+header{
+	background: #808080;
+	
+}
+.vertical-menu {
+    width: 200px; 
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black; 
+    display: block;
+    padding: 12px; 
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+aside {
+  float: right;
+  min-height: 500px;
+  padding: 20px;
+  width: 70%;
+  display: inline-block;
+}
